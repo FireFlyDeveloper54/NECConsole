@@ -104,34 +104,6 @@ namespace NEC_Console
 			{
 				this.Use = !this.Use;
 			}
-			if (UnityEngine.Object.FindObjectOfType<UpdaterV2>().BONOACEACCC._size < 5)
-			{
-				UpdaterV2.serverInfo serverInfo = new UpdaterV2.serverInfo();
-				serverInfo.serverType = "APP";
-				serverInfo.serverIP = "681944b1-4599-49a5-baac-dcc5ddaac8e3";
-				serverInfo.serverName = "dingge1";
-				UnityEngine.Object.FindObjectOfType<UpdaterV2>().BONOACEACCC.Add(serverInfo);
-				UpdaterV2.serverInfo serverInfo2 = new UpdaterV2.serverInfo();
-				serverInfo2.serverType = "APP";
-				serverInfo2.serverIP = "03c7ccb9-b509-48ee-b2cd-cb43a2020006";
-				serverInfo2.serverName = "dingge2";
-				UnityEngine.Object.FindObjectOfType<UpdaterV2>().BONOACEACCC.Add(serverInfo2);
-				UpdaterV2.serverInfo serverInfo3 = new UpdaterV2.serverInfo();
-				serverInfo3.serverType = "APP";
-				serverInfo3.serverIP = "790874a9-7adc-47fc-9626-25a38ec85e59";
-				serverInfo3.serverName = "dingge3";
-				UnityEngine.Object.FindObjectOfType<UpdaterV2>().BONOACEACCC.Add(serverInfo3);
-				UpdaterV2.serverInfo serverInfo4 = new UpdaterV2.serverInfo();
-				serverInfo4.serverType = "APP";
-				serverInfo4.serverIP = "ec231c18-3e87-454d-b866-bc64df8e39e6";
-				serverInfo4.serverName = "dingge4";
-				UnityEngine.Object.FindObjectOfType<UpdaterV2>().BONOACEACCC.Add(serverInfo4);
-				UpdaterV2.serverInfo serverInfo5 = new UpdaterV2.serverInfo();
-				serverInfo5.serverType = "APP";
-				serverInfo5.serverIP = "a2c31a47-c615-461b-8d82-1af2836d1429";
-				serverInfo5.serverName = "dingge5";
-				UnityEngine.Object.FindObjectOfType<UpdaterV2>().BONOACEACCC.Add(serverInfo5);
-			}
 			UnityEngine.Object.FindObjectOfType<UpdaterV2>().AGOIMDFCHAN = true;
 			if (PhotonNetwork.room != null)
 			{
